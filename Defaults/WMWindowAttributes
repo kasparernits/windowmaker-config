@@ -1,0 +1,11 @@
+{
+  pcmanfm.Pcmanfm = {
+    Icon = pcmanfm.Pcmanfm.xpm;
+  };
+  "xfce4-terminal.Xfce4-terminal" = {
+    Icon = "xfce4-terminal.Xfce4-terminal.xpm";
+  };
+  groupLeader.WPrefs = {
+    Icon = groupLeader.WPrefs.xpm;
+  };
+}

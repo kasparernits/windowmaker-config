@@ -1,0 +1,5 @@
+# Window Maker Configs
+
+...
+
+
