@@ -1,6 +1,12 @@
 {
+  firefox_firefox.Firefox_firefox = {
+    Icon = firefox_firefox.Firefox_firefox.xpm;
+  };
   pcmanfm.Pcmanfm = {
     Icon = pcmanfm.Pcmanfm.xpm;
+  };
+  "x-terminal-emulator.XTerm" = {
+    Icon = GNUterm.tiff;
   };
   "xfce4-terminal.Xfce4-terminal" = {
     Icon = "xfce4-terminal.Xfce4-terminal.xpm";

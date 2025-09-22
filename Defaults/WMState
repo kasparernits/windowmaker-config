@@ -1,5 +1,58 @@
 {
   Dock = {
+    Applications1120 = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = Yes;
+        Command = "/usr/bin/WPrefs";
+      },
+      {
+        Forced = No;
+        Name = "x-terminal-emulator.XTerm";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,1";
+        Lock = No;
+        Command = "x-terminal-emulator";
+      },
+      {
+        Forced = No;
+        Name = pcmanfm.Pcmanfm;
+        DropCommand = "pcmanfm %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,2";
+        Lock = No;
+        PasteCommand = "pcmanfm %s";
+        Command = pcmanfm;
+      },
+      {
+        Forced = No;
+        Name = wmclock.WMClock;
+        DropCommand = "wmclock %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,3";
+        Lock = No;
+        PasteCommand = "wmclock %s";
+        Command = wmclock;
+      },
+      {
+        Forced = No;
+        Name = firefox_firefox.Firefox_firefox;
+        DropCommand = "firefox %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,4";
+        Lock = No;
+        PasteCommand = "firefox %s";
+        Command = firefox;
+      }
+    );
     AutoRaiseLower = No;
     Applications = (
       {
@@ -41,52 +94,21 @@
         Lock = No;
         PasteCommand = "wmclock %s";
         Command = wmclock;
+      },
+      {
+        Forced = No;
+        Name = firefox_firefox.Firefox_firefox;
+        DropCommand = "firefox %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,4";
+        Lock = No;
+        PasteCommand = "firefox %s";
+        Command = firefox;
       }
     );
-    Lowered = No;
-    Position = "1840,0";
-    Applications1251 = (
-      {
-        Forced = No;
-        Name = Logo.WMDock;
-        BuggyApplication = No;
-        AutoLaunch = No;
-        Position = "0,0";
-        Lock = Yes;
-        Command = "/usr/bin/WPrefs";
-      },
-      {
-        Forced = No;
-        Name = "x-terminal-emulator.XTerm";
-        BuggyApplication = No;
-        AutoLaunch = No;
-        Position = "0,1";
-        Lock = No;
-        Command = "x-terminal-emulator";
-      },
-      {
-        Forced = No;
-        Name = pcmanfm.Pcmanfm;
-        DropCommand = "pcmanfm %d";
-        BuggyApplication = No;
-        AutoLaunch = No;
-        Position = "0,2";
-        Lock = No;
-        PasteCommand = "pcmanfm %s";
-        Command = pcmanfm;
-      },
-      {
-        Forced = No;
-        Name = wmclock.WMClock;
-        DropCommand = "wmclock %d";
-        BuggyApplication = No;
-        AutoLaunch = No;
-        Position = "0,3";
-        Lock = No;
-        PasteCommand = "wmclock %s";
-        Command = wmclock;
-      }
-    );
+    Lowered = Yes;
+    Position = "0,63";
   };
   Clip = {
     Forced = No;
@@ -110,6 +132,17 @@
         Lowered = Yes;
       };
       Name = Main;
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 2";
     }
   );
 }

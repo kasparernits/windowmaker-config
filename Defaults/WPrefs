@@ -27,4 +27,5 @@
     "#ce29c6",
     "#ce2973"
   );
+  BalloonHelp = YES;
 }
